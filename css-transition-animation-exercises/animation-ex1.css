@@ -1,0 +1,96 @@
+
+
+#content {
+    position: relative;
+    margin: auto;
+    width:400px;
+    height: 400px;
+    top:30vh;
+}
+
+#content .detail {
+    font-size:30px;
+    position: absolute;
+    top: 20vh;   
+    left: 18vh; 
+}
+.one {
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two {
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.three {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.four {
+    background-color: fuchsia;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#content:hover .three {
+    animation: bottomRight 2s ease-in forwards;
+}
+
+#content:hover .one{ 
+    animation: topLeft 2s ease-in forwards;
+}
+
+#content:hover .two {
+    animation: topRight 2s ease-in forwards;
+
+}
+
+#content:hover .four {
+    animation: bottomLeft 2s ease-in forwards;
+}
+
+@keyframes bottomLeft {
+    to {
+        transform: translateX(-200px) rotate(-90deg);
+        background-color: rgb(250, 152, 5);
+    }
+}
+
+@keyframes topRight {
+    to {
+        transform: translateX(200px) rotate(90deg);
+        background-color: rgb(250, 5, 5);
+    }
+}
+@keyframes topLeft {
+    to {
+        transform: translateX(-200px) rotate(-90deg);
+        background-color: rgb(5, 152, 250);
+    }
+}
+@keyframes bottomRight {
+    to {
+        
+        transform: translateX(200px) rotate(90deg);
+        background-color:blueviolet;
+    }
+
+}
+
