@@ -87,3 +87,40 @@ nav {
     padding: 10px;
     height: 10px;
 }
+
+.top_anime_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    width: 70%;
+    height: 1px;
+    background-color: rgb(224, 224, 224);
+}
+
+.top_anime_container strong {
+    color: #6499E9;
+}
+
+.slider_container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.slider_container img{
+    width: 250px;
+    border-radius: 5%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.slider_container img:hover {
+    transition: all .5s ease-out;
+    height: 350px;
+    width: 300px;
+}
+
