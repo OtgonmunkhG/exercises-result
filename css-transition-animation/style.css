@@ -1,5 +1,8 @@
 
+body {
+    margin-top: 50px;
 
+}
 @keyframes slide {
     from {
         transform: translateX(0px);
@@ -8,6 +11,7 @@
         transform: translateX(300px);
         /* border-radius: 50%; */
         background-color: crimson;
+        border-radius: 50%;
     }
 }
 
@@ -16,7 +20,7 @@
     width: 300px;
     height: 300px;
     background-color: darkorange;
-    /* border-radius: 10%; */
+    border-radius: 10%;
     animation: slide 3s ease-in 0s 4;
 
 }

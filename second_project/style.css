@@ -1,9 +1,6 @@
 * {
-    font-family: 'Mohave', sans-serif;
-    font-family: 'Space Grotesk', sans-serif;
-    font-family: 'Space Mono', monospace;
-    color: aliceblue;
-    margin: 0 auto;
+    /* font-family: 'Space Grotesk', sans-serif; */
+    /* color: aliceblue; */
 }
 
 
@@ -15,11 +12,10 @@
     width: 100%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-    
-
 }
 
-h1 {
+.logo {
+    font-family: 'Mohave', sans-serif;
     letter-spacing: 17px;
     color: rgb(217, 218, 219);
     font-family: Orbitron;
@@ -47,9 +43,10 @@ nav {
 
 
 .nav_list div {
+    font-family: 'Space Mono', monospace;
     color: #F9F3CC;
     font-size:20px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .nakitai img {
     border-top-left-radius: 15px;
@@ -71,10 +68,21 @@ nav {
     box-shadow: rgba(249, 243, 204, 0.8) 0 0 10px;
 }
 
+.parent {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.banner_container {
+    display: flex;
+    gap: 5px;
+}
+
 .banner {
-    margin-top: 10px;
+    color: white;
     background-color: #687EFF;
-    padding: 10px;
     font-size: 12px;
-    border-radius: 7%;
+    border-radius: 20px;
+    padding: 10px;
+    height: 10px;
 }
