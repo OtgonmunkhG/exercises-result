@@ -1,7 +1,6 @@
-* {
+
     /* font-family: 'Space Grotesk', sans-serif; */
-    /* color: aliceblue; */
-}
+
 
 
 .content_container {
@@ -12,6 +11,8 @@
     width: 100%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    padding-bottom: 5%;
+    box-sizing: border-box;
 }
 
 .logo {
