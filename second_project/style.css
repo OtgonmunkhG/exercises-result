@@ -1,12 +1,9 @@
-
-    /* font-family: 'Space Grotesk', sans-serif; */
+/* font-family: 'Space Grotesk', sans-serif; */
 
 
 
 .content_container {
-    background-image: linear-gradient(to bottom, rgba(33, 64, 238, 0.52),rgba(33, 64, 238, 0.52)), url("images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, rgba(33, 64, 238, 0.52), rgba(33, 64, 238, 0.52)), url("images/background.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     border-top-right-radius: 30px;
@@ -21,9 +18,10 @@
     color: rgb(217, 218, 219);
     font-family: Orbitron;
     font-size: 36px;
-    font-style:oblique;
+    font-style: oblique;
     flex-grow: 8;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -35,6 +33,7 @@ nav {
     width: 80%;
     margin: 0 auto;
 }
+
 .nav_list {
     letter-spacing: 4px;
     display: flex;
@@ -46,9 +45,10 @@ nav {
 .nav_list div {
     font-family: 'Space Mono', monospace;
     color: #F9F3CC;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 400;
 }
+
 .nakitai img {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -61,7 +61,7 @@ nav {
     display: flex;
 }
 
-.nakitai_des  {
+.nakitai_des {
     width: 40%;
     background-color: rgb(255, 255, 255);
     border-top-right-radius: 15px;
@@ -110,7 +110,7 @@ nav {
     /* gap: 20px; */
 }
 
-.slider_container img{
+.slider_container img {
     width: 250px;
     border-radius: 5%;
     height: 300px;
@@ -124,30 +124,33 @@ nav {
     width: 300px;
 }
 
-.footer_container {
+.footer {
     margin-top: 20px;
-    background: url("images/footer.jpg") no-repeat center;
+    background: linear-gradient(to bottom, rgba(33, 64, 238, 0.52), rgba(33, 64, 238, 0.52)), url("images/footer.jpg") no-repeat center;
     background-size: cover;
     height: 500px;
-    display: flex;
-    justify-content: space-evenly;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    opacity: 0.7;
     box-sizing: border-box;
     padding-top: 300px;
-    
 }
- 
+
+.footer_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_content {
+    line-height: 2;
+}
+
+
 
 .banner_container img {
     width: 30px;
     height: 30px;
 }
 
-.last {
-    color: black;
-}
 
 .video_container {
     display: flex;
@@ -158,6 +161,9 @@ nav {
     display: flex;
     gap: 5px;
     width: 100%;
+    background-color: #98E4FF;
+    margin-left: 10px;
+    border-radius: 20px;
 }
 
 .video video {
@@ -166,3 +172,9 @@ nav {
     border-bottom-left-radius: 20px;
     object-fit: cover;
 }
+
+.video_des h3 {
+    font-family: 'Mohave', sans-serif;
+    font-weight: 400;
+}
+
