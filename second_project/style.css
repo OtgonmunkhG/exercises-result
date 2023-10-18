@@ -178,3 +178,9 @@ nav {
     font-weight: 400;
 }
 
+.line_last {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    height: 1px;
+}
