@@ -124,3 +124,28 @@ nav {
     width: 300px;
 }
 
+.footer_container {
+    margin-top: 20px;
+    background: url("images/footer.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    opacity: 0.7;
+    box-sizing: border-box;
+    padding-top: 300px;
+    
+}
+ 
+
+.banner_container img {
+    width: 30px;
+    height: 30px;
+}
+
+.last {
+    color: black;
+}
+
