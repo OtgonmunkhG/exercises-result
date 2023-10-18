@@ -149,3 +149,20 @@ nav {
     color: black;
 }
 
+.video_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.video video {
+    width: 60%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+}
