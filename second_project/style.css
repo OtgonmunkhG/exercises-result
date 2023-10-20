@@ -12,14 +12,20 @@
     box-sizing: border-box;
 }
 
-.logo {
+
+.title {
+    flex-grow: 8;
+
+}
+.logo  {
+    display: block;
+    text-decoration: none;
     font-family: 'Mohave', sans-serif;
     letter-spacing: 17px;
     color: rgb(217, 218, 219);
     font-family: Orbitron;
     font-size: 36px;
     font-style: oblique;
-    flex-grow: 8;
 }
 
 nav {
@@ -185,7 +191,3 @@ nav {
     height: 1px;
 }
 
-a {
-    text-decoration: none;
-    
-}
