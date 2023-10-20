@@ -161,7 +161,7 @@ nav {
     display: flex;
     gap: 5px;
     width: 100%;
-    background-color: #98E4FF;
+    background-color: #DFCCFB;
     margin-left: 10px;
     border-radius: 20px;
 }
@@ -183,4 +183,9 @@ nav {
     text-align: center;
     background-color: rgb(224, 224, 224);
     height: 1px;
+}
+
+a {
+    text-decoration: none;
+    
 }
