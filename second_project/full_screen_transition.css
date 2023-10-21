@@ -1,18 +1,15 @@
 .image-container {
     position: relative;
-    width: 100vw; /* Adjust to the desired width */
-    height: 100vh; /* Adjust to the desired height */
-    perspective: 1000px; 
+    /* width: 100vw; 
+    height: 100vh;  */
+    /* perspective: 1000px;  */
 }
 
-body {
-    background-color: #54e031;
-
-}
 .image {
+    border-radius: 10px;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
     object-fit: cover;
     transform-origin: center center;
     transition: opacity 1s ease-out;
