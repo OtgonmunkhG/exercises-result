@@ -1,0 +1,63 @@
+.about_text {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Space Mono', monospace;
+    color: #F6FDC3;
+}
+
+
+.misstion {
+    display: flex;
+    height: 500px;
+}
+
+.misstion_text div, h1, .naruto_summary {
+    color: #4C4C6D;
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+
+
+}
+.misstion_text h1 {
+    font-size: 35px;
+}
+
+.top_misstion {
+    background-color: #F6FDC3;
+    border-radius: 10px;
+
+}
+
+.img_container {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.misstion_text {
+    width: 60%;
+}
+
+.pharagrap {
+    font-size: 28px;
+    font-family: 'Space Mono', monospace;
+}
+
+.contact_container h1, .follow_container h1 {
+    color: white;
+}
+
+.naruto_summary h3 {
+    color: #4C4C6D;
+}
+
+.naruto_container {
+    background: url("images/nar.jpg") no-repeat top right;
+    height: 600px;
+    background-size: contain;
+}
+
+.naruto_summary {
+    padding-top: 120px;
+}
