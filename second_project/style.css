@@ -158,9 +158,10 @@ nav {
 }
 
 .slider_content:hover {
-    background-color: #DFCCFB;
-    padding: 50px 25px;
+    /* background-color: #9EDDFF; */
+    padding-bottom: 50px;
     border-radius: 4px;
+    margin-bottom: 5px;
 }
 
 .slider_content:hover p {
@@ -168,6 +169,35 @@ nav {
     display: block;
     position: absolute;
     bottom: -10px;
+}
+
+
+.map_container {
+    display: flex;
+}
+
+
+.map_content h3 {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    font-size: 32px;
+}
+
+.input_container {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.input_container img {
+    width: 30px;
+    height: 35px;
+}
+
+.input_container input {
+    border: none;
+    color: black;
 }
 
 .footer {
