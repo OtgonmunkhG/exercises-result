@@ -24,7 +24,8 @@
     flex-grow: 8;
 
 }
-.logo  {
+
+.logo {
     display: block;
     text-decoration: none;
     font-family: 'Mohave', sans-serif;
@@ -87,11 +88,12 @@ nav {
     margin: 0 auto;
     width: 85%;
 }
+
 .parent h1 {
     color: black;
 }
 
-.parag{
+.parag {
     color: black;
     line-height: 1.5;
     font-size: 20px;
@@ -123,28 +125,49 @@ nav {
     background-color: rgb(224, 224, 224);
 }
 
-.top_anime_container strong {
-    color: #6499E9;
+.top_anime_container h2 {
+    color: black;
 }
 
 .slider_container {
     display: flex;
     justify-content: space-between;
     /* gap: 20px; */
+    position: relative;
 }
 
-.slider_container img {
+.slider_content img {
     width: 250px;
     border-radius: 5%;
     height: 300px;
     object-fit: cover;
 }
 
+.slider_content p {
+    color: black;
+    display: none;
+    transition: all 0.4 ease-in;
+    text-align: center;
+}
 
-.slider_container img:hover {
+
+.slider_content img:hover {
     transition: all .5s ease-out;
     height: 350px;
     width: 300px;
+}
+
+.slider_content:hover {
+    background-color: #DFCCFB;
+    padding: 50px 25px;
+    border-radius: 4px;
+}
+
+.slider_content:hover p {
+    font-size: 32px;
+    display: block;
+    position: absolute;
+    bottom: -10px;
 }
 
 .footer {
@@ -168,7 +191,11 @@ nav {
     line-height: 2;
 
 }
-.about_content , .email, .phone_number, .location {
+
+.about_content,
+.email,
+.phone_number,
+.location {
     font-size: 20px;
     letter-spacing: 2px;
     font-family: 'Lora', serif;
@@ -209,11 +236,13 @@ nav {
 
 }
 
-.video_des h3, .video_des p {
+.video_des h3,
+.video_des p {
     color: black;
     font-family: 'Lora', serif;
 
 }
+
 .video_des h3 {
     font-weight: 400;
 }
@@ -225,4 +254,3 @@ nav {
     height: 1px;
     margin-bottom: 5px;
 }
-
