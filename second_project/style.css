@@ -36,11 +36,18 @@
     font-style: oblique;
 }
 
+
+.logo_container {
+    display: flex;
+    gap: 3px;
+}
+
 nav {
     display: flex;
     align-items: center;
     box-sizing: border-box;
     padding: 14px 0;
+    gap: 3px;
 }
 
 .container {
