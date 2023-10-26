@@ -181,6 +181,8 @@ nav {
 
 .map_container {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
 }
 
 
@@ -203,8 +205,34 @@ nav {
 }
 
 .input_container input {
+    background-color:#F8F6F4;
+    height: 50px;
+    width: 700px;
     border: none;
     color: black;
+    outline: none;
+}
+
+.input_container input::placeholder , textarea::placeholder{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+.input_container h3 {
+    margin-top: 0;
+    height: 7px;
+}
+
+.input_container textarea {
+    border: none;
+    outline: none;
+    background-color:#F8F6F4;
+
+}
+
+.input_container input:last-child {
+    background-color: #50577A;
+    color: white;
+    border-radius: 5px;
 }
 
 .footer {
