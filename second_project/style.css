@@ -185,6 +185,12 @@ nav {
     margin-bottom: 150px;
 }
 
+.map_content {
+    background: url("images/retro.jpg") no-repeat center;
+    background-size: cover;
+    width: 700px;
+}
+
 
 .map_content h3 {
     color: black;
@@ -196,7 +202,9 @@ nav {
 .input_container {
     display: flex;
     justify-content: center;
-    gap: 14px;
+    gap: 10px;
+    padding: 100px 100px 0px 100px;
+    box-sizing: border-box;
 }
 
 .input_container img {
@@ -206,8 +214,8 @@ nav {
 
 .input_container input {
     background-color:#F8F6F4;
-    height: 50px;
-    width: 700px;
+    height: 40px;
+    width: 400px;
     border: none;
     color: black;
     outline: none;
@@ -223,6 +231,7 @@ nav {
 }
 
 .input_container textarea {
+    width: 400px;
     border: none;
     outline: none;
     background-color:#F8F6F4;
