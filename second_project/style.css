@@ -10,7 +10,7 @@
 }
 
 .content_container {
-    text-align: center;
+    /* text-align: center; */
     background-size: cover;
     width: 100%;
     border-top-right-radius: 30px;
