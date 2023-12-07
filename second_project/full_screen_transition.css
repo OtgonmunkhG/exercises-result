@@ -1,15 +1,12 @@
-.image-container {
+/* .image-container {
     position: relative;
-    /* width: 100vw; 
-    height: 100vh;  */
-    /* perspective: 1000px;  */
-}
+} */
 
 .image {
     border-radius: 10px;
     position: absolute;
     width: 40%;
-    height: 40%;
+    height: 35%;
     object-fit: cover;
     transform-origin: center center;
     transition: opacity 1s ease-out;
