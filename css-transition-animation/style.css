@@ -9,7 +9,6 @@ body {
     }
     to {
         transform: translateX(300px);
-        /* border-radius: 50%; */
         background-color: crimson;
         border-radius: 50%;
     }
