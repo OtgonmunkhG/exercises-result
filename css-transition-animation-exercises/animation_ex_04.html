@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0 auto;
+            text-align: center;
+        }
+        .box {
+            display: inline-block;
+            margin-top: 30px;
+            background-color: #FF9209;
+            color: white;                                                                                                  
+            animation: fade_in;
+            padding: 2rem;
+            opacity: 0;
+        }
+        .box1 {
+            background-color: #1F4172;
+            animation: fade_in_1 3s ease-out infinite;
+            animation-delay: 0ms;
+        }
+        @keyframes fade_in_1 {
+            0%, 10% {
+                opacity: 0;
+                transform: translateY(8rem) scale(0);
+            }
+            30%, 100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <img src="https://i.pinimg.com/564x/75/e6/38/75e6383c52c3179a4057b37b234e9182.jpg" alt="">
+    </div>
+</body>
+</html>
