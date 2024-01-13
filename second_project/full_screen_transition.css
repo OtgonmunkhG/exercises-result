@@ -16,11 +16,16 @@
 
 .image1 {
     animation: spin1 5s ease-out infinite;
+    background: url("https://i.pinimg.com/564x/3b/c8/0b/3bc80bcb4557297d3b74f8698565e7b5.jpg") no-repeat top center;
+    background-size: cover;
+    
 }
 
 .image2 {
     animation: spin2 5s ease-out infinite;
     opacity: 0;
+    background: url("https://i.pinimg.com/564x/0e/cf/49/0ecf4909886f00662e527d4824340c72.jpg") no-repeat center;
+    background-size: cover;
 }
 
 @keyframes spin1 {
